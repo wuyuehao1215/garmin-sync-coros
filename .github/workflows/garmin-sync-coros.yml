@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '16 * * * *'
+      timezone: Asia/Shanghai
+    
 env:
   GITHUB_NAME: wuyuehao1215
   GITHUB_EMAIL: 544153662@qq.com
